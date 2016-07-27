@@ -1,0 +1,94 @@
+{
+  "name": "jxnblk/robox-box",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.10"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/robox-box",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/robox-box",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "robox-box",
+      "subhead": "Base React layout component based on Robox/understyle",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "robox-box: Base React layout component based on Robox/understyle",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jxnblk",
+          "repo": "robox-box"
+        }
+      ],
+      "text": "v1.0.0-beta.1"
+    },
+    {
+      "component": "article",
+      "html": "\n\n<p><a href=\"https://travis-ci.org/jxnblk/robox-box\"><img src=\"https://travis-ci.org/jxnblk/robox-box.svg?branch=master\" alt=\"Build Status\"></a>\n<a href=\"http://standardjs.com/\"><img src=\"https://img.shields.io/badge/code%20style-standard-brightgreen.svg\" alt=\"js-standard-style\"></a></p>\n<pre>npm i robox-box</pre><pre><span class=\"hljs-keyword\">import</span> Box <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">&apos;robox-box&apos;</span>\n\n<span class=\"hljs-keyword\">const</span> MyComponent = (props) =&gt; (\n  <span class=\"xml\"><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">Box</span> <span class=\"hljs-attr\">p</span>=<span class=\"hljs-string\">{2}</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">h1</span>&gt;</span>Hello<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">h1</span>&gt;</span>\n  <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">Box</span>&gt;</span></span>\n)</pre><p>See <a href=\"https://github.com/jxnblk/robox\">Robox</a> for a full list of supported props.</p>\n<p>MIT License</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/robox-box",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jxnblk",
+          "text": "jxnblk"
+        }
+      ]
+    }
+  ]
+}
